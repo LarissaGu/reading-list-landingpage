@@ -130,20 +130,24 @@ main p {
 }
 
 .read,
-.to-read {
+.to-read,
+.currently-reading {
   text-transform: uppercase;
   text-align: center;
   padding: 6px 16px;
   border-radius: 5px;
   display: inline;
+  color: #f1f1f1;
 }
 
 .read {
   background: #92b4a0;
-  color: #f1f1f1;
 }
 
 .to-read {
   background: #fdba14;
-  color: #f1f1f1;
+}
+
+.currently-reading {
+  background: #33479d;
 }
