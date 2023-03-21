@@ -1,0 +1,46 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(51, 71, 157, 0.2),
+      rgba(51, 71, 157, 0.2)
+    ),
+    url("../img/bookishtravels.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 220px 20px 360px 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #33479d;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 96px;
+  color: #33479d;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin: 0px 0 48px 0;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 3px;
+  background: #92b4a0;
+  color: #eeecde;
+  padding: 16px 32px;
+}
