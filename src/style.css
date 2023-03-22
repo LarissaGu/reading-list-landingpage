@@ -111,6 +111,7 @@ main h6 {
 main p {
   font-size: 14px;
   opacity: 0.8;
+  line-height: 1.5;
 }
 
 select {
@@ -194,6 +195,7 @@ footer p {
   font-size: 14px;
   font-weight: 400;
   margin: 8px 0 16px 0;
+  line-height: 1.5;
 }
 
 footer a {
