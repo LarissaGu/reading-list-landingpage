@@ -248,3 +248,19 @@ footer a:hover {
   grid-template-columns: 2fr 1fr;
   grid-gap: 64px;
 }
+
+.switch-language {
+  text-decoration: none;
+  background: rgba(238, 236, 222, 0.5);
+  float: right;
+  padding: 6px;
+  color: rgba(51, 71, 157, 0.6);
+  border-radius: 5px;
+  margin: 8px 32px 0 0;
+  transition: all 600ms ease-in-out;
+}
+
+.switch-language:hover {
+  color: rgba(238, 236, 222, 0.5);
+  background: rgba(51, 71, 157, 0.6);
+}
