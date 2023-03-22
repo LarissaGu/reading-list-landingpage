@@ -16,6 +16,18 @@ body {
   grid-gap: 32px;
 }
 
+.grid-2-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+
+.grid-2-equal-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+}
+
 header {
   background-image: linear-gradient(
       rgba(51, 71, 157, 0.1),
@@ -64,9 +76,6 @@ header a:hover {
   border: 1px solid #92b4a0;
 }
 
-main {
-  padding: 30px;
-}
 main h2 {
   font-size: 72px;
   font-weight: 600;
@@ -109,9 +118,13 @@ main h6 {
 }
 
 main p {
-  font-size: 14px;
+  font-size: 16px;
   opacity: 0.8;
   line-height: 1.5;
+}
+
+section {
+  padding: 30px;
 }
 
 select {
@@ -127,15 +140,27 @@ em {
   opacity: 0.7;
 }
 
+.intro {
+  background: #fff;
+}
+
+.intro h3 {
+  color: #33479d;
+  font-size: 32px;
+  margin: 32px 0 24px 0;
+  opacity: 1;
+  font-weight: 600;
+}
+
 .card {
   background: #fff;
   box-shadow: 5px 5px 10px rgba(51, 71, 157, 0.1);
 }
 
-.card-header {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 0px;
+.intro-card {
+  background-color: #f8f9fa;
+  margin-bottom: 32px;
+  padding: 32px;
 }
 
 .card-body {
@@ -147,6 +172,11 @@ em {
 }
 
 .embed {
+  width: 100%;
+  aspect-ratio: 4 / 2;
+}
+
+.embed-small {
   width: 100%;
   aspect-ratio: 4 / 2;
 }
