@@ -288,10 +288,6 @@ footer a:hover {
   .intro-card {
     margin: 0;
   }
-
-  .card-body.intro-card. {
-    padding: 0;
-  }
 }
 
 @media (max-width: 768px) {
