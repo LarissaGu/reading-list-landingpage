@@ -109,7 +109,7 @@ header {
 }
 
 header h2 {
-  font-size: 96px;
+  font-size: 88px;
   margin: 0px 0 32px 0;
 }
 
@@ -150,11 +150,11 @@ em {
 }
 
 .intro h3 {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
   opacity: 1;
-  margin: 32px 0 24px 0;
+  margin: 0 0 24px 0;
 }
 
 .card {
@@ -167,6 +167,10 @@ em {
   background-color: #f8f9fa;
   margin-bottom: 32px;
   padding: 32px;
+}
+
+.card-header {
+  background: #f8f9fa;
 }
 
 .card-body {
@@ -224,7 +228,6 @@ footer {
 }
 
 footer h3 {
-  font-size: 18px;
   font-weight: 600;
   margin: 0;
   text-align: left;
@@ -256,11 +259,119 @@ footer a:hover {
   padding: 6px;
   color: rgba(51, 71, 157, 0.6);
   border-radius: 5px;
-  margin: 8px 32px 0 0;
+  margin: 8px 24px 0 0;
   transition: all 600ms ease-in-out;
 }
 
 .switch-language:hover {
   color: rgba(238, 236, 222, 0.5);
   background: rgba(51, 71, 157, 0.6);
+}
+
+@media (max-width: 960px) {
+  .grid,
+  .grid-2-column,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .img-responsive {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .intro-card {
+    margin: 0;
+  }
+
+  .card-body.intro-card. {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 160px 20px 240px 20px;
+  }
+
+  header h2 {
+    font-size: 64px;
+  }
+
+  header a {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  select {
+    padding: 8px 60px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  h4,
+  h6 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  header {
+    padding: 100px 20px 160px 20px;
+  }
+
+  header h2 {
+    font-size: 48px;
+  }
+
+  footer h3 {
+    font-size: 16px;
+  }
+
+  footer p,
+  footer a {
+    font-size: 12px;
+  }
+
+  .intro h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .embed {
+    display: none;
+  }
 }
