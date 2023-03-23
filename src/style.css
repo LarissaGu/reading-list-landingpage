@@ -124,7 +124,7 @@ main p {
 }
 
 section {
-  padding: 30px;
+  padding: 40px;
 }
 
 select {
@@ -150,11 +150,13 @@ em {
   margin: 32px 0 24px 0;
   opacity: 1;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .card {
   background: #fff;
   box-shadow: 5px 5px 10px rgba(51, 71, 157, 0.1);
+  border-radius: 10px;
 }
 
 .intro-card {
@@ -169,6 +171,7 @@ em {
 
 .img-responsive {
   width: 100%;
+  border-radius: 10px;
 }
 
 .embed {
