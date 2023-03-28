@@ -64,27 +64,21 @@
           <a name="books"></a>
           <h3>· (At least) One Book per travelled Country ·</h3>
           <h2>The Books</h2>
-          <select id="country">
-            <option value="">Select a country</option>
-            <option value="hungary">Hungary</option>
-            <option value="bosnia">Bosnia-Hercegovina</option>
-            <option value="croatia">Croatia</option>
-            <option value="montenegro">Montenegro</option>
-            <option value="kosovo">Kosovo</option>
-            <option value="albania">Albania</option>
-            <option value="turkey">Turkey</option>
-            <option value="lebanon">Lebanon</option>
-            <option value="georgia">Georgia</option>
-          </select>
+          <div id="search">
+            <label for="searchInput"
+              >Search for a country, author or book title</label
+            >
+            <input id="searchInput" type="text" placeholder="Search" />
+          </div>
           <div class="grid">
-            <div class="card" id="hungary">
+            <div class="card country">
               <div class="card-header">
                 <img src="/img/thedoor.png" alt="" class="img-responsive" />
               </div>
               <div class="card-body">
                 <h6>Hungary</h6>
                 <h4>The Door</h4>
-                <h5>Magda Szabó</h5>
+                <h5 class="author">Magda Szabó</h5>
                 <p>
                   The Door is an unsettling exploration of the relationship
                   between two very different women in Hungary's Communist
@@ -103,7 +97,7 @@
                 class="embed"
               ></iframe>
             </div>
-            <div class="card">
+            <div class="card country">
               <img
                 src="/img/catchtherabbit.png"
                 alt=""
@@ -112,7 +106,7 @@
               <div class="card-body">
                 <h6>Bosnia-Hercegovina</h6>
                 <h4>Catch the Rabbit</h4>
-                <h5>Lana Bastašić</h5>
+                <h5 class="author">Lana Bastašić</h5>
                 <p>
                   Translated into English by author Lana Bastašić, Catch the
                   Rabbit tells the story of how we place the ones we love on
@@ -130,7 +124,7 @@
                 class="embed"
               ></iframe>
             </div>
-            <div class="card">
+            <div class="card country">
               <img src="/img/familienroman.png" alt="" class="img-responsive" />
               <div class="card-body">
                 <h6>Croatia</h6>
@@ -138,7 +132,7 @@
                   Familienroman: Die Ereignisse von 1941 bis 1991 und darüber
                   hinaus
                 </h4>
-                <h5>Ivana Sajko</h5>
+                <h5 class="author">Ivana Sajko</h5>
                 <p>
                   <em>Not available in English</em><br />
                   Ivana Sajko erzählt vom Partisanenkampf im Zweiten Weltkrieg,
@@ -156,7 +150,7 @@
                 class="embed"
               ></iframe>
             </div>
-            <div class="card">
+            <div class="card country">
               <img src="/img/tbd.png" alt="" class="img-responsive" />
               <div class="card-body">
                 <h6>Montenegro</h6>
@@ -174,7 +168,7 @@
                 class="embed"
               ></iframe>
             </div>
-            <div class="card">
+            <div class="card country">
               <img src="/img/tbd.png" alt="" class="img-responsive" />
               <div class="card-body">
                 <h6>Kosovo</h6>
@@ -192,7 +186,7 @@
                 class="embed"
               ></iframe>
             </div>
-            <div class="card" id="albania">
+            <div class="card country">
               <img src="/img/free.png" alt="" class="img-responsive" />
               <div class="card-body">
                 <h6>Albania</h6>
@@ -216,7 +210,7 @@
                 class="embed"
               ></iframe>
             </div>
-            <div class="card">
+            <div class="card country">
               <img
                 src="/img/thebastardofistanbul.png"
                 alt=""
@@ -244,7 +238,7 @@
                 class="embed"
               ></iframe>
             </div>
-            <div class="card">
+            <div class="card country">
               <img
                 src="/img/ikilledscheheradze.png"
                 alt=""
@@ -274,7 +268,7 @@
                 class="embed"
               ></iframe>
             </div>
-            <div class="card">
+            <div class="card country">
               <img
                 src="/img/dasmangelndelicht.png"
                 alt=""
@@ -305,7 +299,7 @@
                 class="embed"
               ></iframe>
             </div>
-            <div class="card">
+            <div class="card country">
               <img
                 src="/img/blueskinnedgods.png"
                 alt=""
@@ -332,7 +326,7 @@
                 class="embed"
               ></iframe>
             </div>
-            <div class="card">
+            <div class="card country">
               <img src="/img/apassagenorth.png" alt="" class="img-responsive" />
               <div class="card-body">
                 <h6>Sri Lanka</h6>
@@ -356,7 +350,7 @@
                 class="embed"
               ></iframe>
             </div>
-            <div class="card">
+            <div class="card country">
               <img src="/img/dustchild.png" alt="" class="img-responsive" />
               <div class="card-body">
                 <h6>Vietnam</h6>
