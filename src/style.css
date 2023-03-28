@@ -176,6 +176,31 @@ em {
   padding: 32px;
 }
 
+.search {
+  display: flex;
+  justify-content: end;
+  margin: 24px 0 32px 0;
+}
+
+label {
+  padding: 8px;
+  color: var(--primary-color);
+}
+
+input {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  font-family: Montserrat, sans-serif;
+  background: rgba(51, 71, 157, 0.2);
+  width: 25%;
+}
+
+input::placeholder {
+  color: var(--primary-color);
+  opacity: 0.6;
+}
+
 .card-header {
   background: #f8f9fa;
 }
@@ -276,10 +301,6 @@ footer a:hover {
 .switch-language:hover {
   color: rgba(248, 249, 250, 0.5);
   background: rgba(51, 71, 157, 0.6);
-}
-
-.show {
-  display: block;
 }
 
 @media (max-width: 960px) {
