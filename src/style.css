@@ -185,6 +185,7 @@ em {
 label {
   padding: 8px;
   color: var(--primary-color);
+  opacity: 0.5;
 }
 
 input {
@@ -192,13 +193,14 @@ input {
   border-radius: 10px;
   border: none;
   font-family: Montserrat, sans-serif;
-  background: rgba(51, 71, 157, 0.2);
-  width: 25%;
+  background: rgba(51, 71, 157, 0.1);
+  width: 30%;
 }
 
 input::placeholder {
   color: var(--primary-color);
-  opacity: 0.6;
+  opacity: 0.5;
+  font-size: 12px;
 }
 
 .card-header {
@@ -323,6 +325,15 @@ footer a:hover {
   .intro-card {
     margin: 0;
   }
+
+  .search {
+    width: 100%;
+    justify-content: center;
+  }
+
+  input {
+    width: 90%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -349,11 +360,6 @@ footer a:hover {
   header a {
     font-size: 16px;
     padding: 12px 24px;
-  }
-
-  select {
-    padding: 8px 60px;
-    font-size: 12px;
   }
 }
 
@@ -404,5 +410,8 @@ footer a:hover {
 
   .embed {
     display: none;
+  }
+  input::placeholder {
+    font-size: 10px;
   }
 }
