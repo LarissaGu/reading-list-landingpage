@@ -2,14 +2,8 @@
   --primary-color: rgb(51, 71, 157);
   --secondary-color: rgb(146, 180, 160);
   --third-color: rgb(253, 186, 20);
-  --light-color: rgb(244, 211, 191);
+  --light-color: rgb(248, 249, 250);
 }
-
-/* 
-#f1f1f1
-#fff
-#f8f9fa
-*/
 
 body {
   font-family: Montserrat, sans-serif;
@@ -20,7 +14,7 @@ body {
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  background: #f1f1f1;
+  background: var(--light-color);
 }
 
 .grid {
@@ -103,7 +97,7 @@ p {
 
 a {
   text-decoration: none;
-  color: rgba(244, 211, 191, 0.5);
+  color: var(--light-color);
   border-radius: 5px;
   transition: all 600ms ease-in-out;
 }
@@ -177,7 +171,7 @@ em {
 }
 
 .intro-card {
-  background-color: #f8f9fa;
+  background-color: var(--light-color);
   margin-bottom: 32px;
   padding: 32px;
 }
@@ -214,7 +208,7 @@ em {
   padding: 6px 16px;
   border-radius: 5px;
   display: inline-block;
-  color: #f1f1f1;
+  color: #f8f9fa;
   opacity: 0.7;
 }
 
@@ -244,6 +238,7 @@ footer h3 {
   font-weight: 600;
   margin: 0;
   text-align: left;
+  opacity: 0.9;
 }
 
 footer p {
@@ -251,6 +246,7 @@ footer p {
   font-weight: 400;
   margin: 8px 0 16px 0;
   line-height: 1.5;
+  opacity: 0.7;
 }
 
 footer a {
@@ -261,13 +257,14 @@ footer a {
 
 footer a:hover {
   color: var(--primary-color);
-  background: rgba(244, 211, 191);
+  background: var(--light-color);
   border: 1px solid var(--primary-color);
+  opacity: 0.6;
 }
 
 .switch-language {
   text-decoration: none;
-  background: rgba(244, 211, 191);
+  background: rgba(248, 249, 250, 0.5);
   float: right;
   padding: 6px;
   color: rgba(51, 71, 157, 0.6);
@@ -277,7 +274,7 @@ footer a:hover {
 }
 
 .switch-language:hover {
-  color: rgba(244, 211, 191, 0.5);
+  color: rgba(248, 249, 250, 0.5);
   background: rgba(51, 71, 157, 0.6);
 }
 
