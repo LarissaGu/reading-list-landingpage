@@ -411,4 +411,9 @@ footer a:hover {
   input::placeholder {
     font-size: 10px;
   }
+
+  .storygraph-link {
+    width: 100%;
+    font-size: 12px;
+  }
 }
