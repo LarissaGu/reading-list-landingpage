@@ -420,4 +420,8 @@ footer a:hover {
     font-size: 12px;
     margin: 0 12px 12px 12px;
   }
+
+  .switch-language {
+    font-size: 12px;
+  }
 }
