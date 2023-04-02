@@ -381,6 +381,10 @@ footer a:hover {
     font-size: 48px;
   }
 
+  section {
+    padding: 20px;
+  }
+
   footer h3 {
     font-size: 16px;
   }
