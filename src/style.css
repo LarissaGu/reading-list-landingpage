@@ -395,7 +395,7 @@ footer a:hover {
   }
 
   footer p,
-  footer a {
+  a {
     font-size: 12px;
   }
 
@@ -417,11 +417,6 @@ footer a:hover {
   }
 
   .storygraph-link {
-    font-size: 12px;
     margin: 0 12px 12px 12px;
-  }
-
-  .switch-language {
-    font-size: 12px;
   }
 }
