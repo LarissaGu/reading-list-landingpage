@@ -222,26 +222,17 @@ input::placeholder {
 .currently-reading {
   text-transform: uppercase;
   font-weight: 700;
-  /**text-align: center;
-  padding: 6px 16px;
-  border-radius: 5px;
-  display: inline-block;
-  color: #f8f9fa;
-  opacity: 0.7; **/
 }
 
 .read {
-  /* background: var(--secondary-color); */
   color: var(--secondary-color);
 }
 
 .to-read {
-  /* background: var(--third-color); */
   color: var(--third-color);
 }
 
 .currently-reading {
-  /*background: var(--primary-color);*/
   color: var(--primary-color);
 }
 
