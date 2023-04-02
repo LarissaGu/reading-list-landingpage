@@ -408,12 +408,16 @@ footer a:hover {
     display: none;
   }
 
+  .card-body {
+    padding: 8px;
+  }
+
   input::placeholder {
     font-size: 10px;
   }
 
   .storygraph-link {
     font-size: 12px;
-    margin: 0 8px 8px 8px;
+    margin: 0 12px 12px 12px;
   }
 }
